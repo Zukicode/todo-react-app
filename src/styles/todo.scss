@@ -1,0 +1,27 @@
+.todo-app {
+  width: 400px;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 36px;
+  color: #2d2d2d;
+}
+.empty-title {
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #FCE100;
+  text-shadow: 0px 0px 3px black;
+
+  span {
+    font-size: 50px;
+  }
+}
